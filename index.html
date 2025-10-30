@@ -5,43 +5,97 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Software Engineer Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- SVG Icons (hidden defs) -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+    <symbol id="icon-linkedin" viewBox="0 0 24 24">
+      <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zm7.98 0h3.84v2.2h.05c.54-1.03 1.85-2.2 3.81-2.2 4.08 0 4.84 2.69 4.84 6.18V24h-4v-7.79c0-1.86-.03-4.25-2.59-4.25-2.59 0-2.99 2.02-2.99 4.12V24h-4V8z"/>
+    </symbol>
+    <symbol id="icon-mail" viewBox="0 0 24 24">
+      <path d="M2 4h20c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H2a2 2 0 01-2-2V6c0-1.1.9-2 2-2zm0 2l10 7 10-7H2zm0 12h20V8l-10 7L2 8v10z"/>
+    </symbol>
+  </svg>
 </head>
+
 <body>
   <!-- ===== NAVBAR ===== -->
   <nav class="navbar">
     <div class="nav-center">
       <a href="#home" class="nav-link">Home</a>
       <a href="#about" class="nav-link">About</a>
-      <a href="#resume" class="nav-link">Resume</a>
+      <a href="https://drive.google.com/file/d/1Q5IvOjt180SJ_LuMsBPam4hcF8glixFA/view?usp=sharing"
+         target="_blank" rel="noopener noreferrer" class="nav-link">Resume</a>
     </div>
+
     <div class="nav-right">
-      <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" class="icon"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:YOUR-EMAIL@gmail.com" class="icon"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/minstonnguyen" target="_blank" class="icon">
+        <svg class="icon-svg"><use href="#icon-linkedin"></use></svg>
+      </a>
+      <a href="mailto:minstonnguyen@gmail.com" class="icon">
+        <svg class="icon-svg"><use href="#icon-mail"></use></svg>
+      </a>
     </div>
   </nav>
 
   <!-- ===== HOME SECTION ===== -->
-  <section id="home" class="section">
-    <h1>Hello, I'm <span class="highlight">Your Name</span></h1>
-    <p>Software Engineering Student passionate about building scalable apps and learning modern frameworks.</p>
+  <section id="home" class="section home-section">
+    <h1>Hey there, nice to meet you! I'm <span class="highlight">Minston Nguyen</span></h1>
+    <p>I specialize in process automation, agentic workflows, and software/data integration. I design backend systems that reduce manual work. B.S. in Software Engineering, San José State University, May 2026.</p>
+    <img src="images/hero.jpg" alt="Hero Image" class="hero-image">
   </section>
 
   <!-- ===== ABOUT SECTION ===== -->
-  <section id="about" class="section">
+  <section id="about" class="section about-section">
     <h2>About Me</h2>
-    <p>I’m currently studying Software Engineering and love solving complex backend problems, building web apps, and automating processes. I enjoy working with Java, Python, and React.</p>
-  </section>
+    
+    <img src="images/hero2.jpg" alt="Hero Image" class="hero-image">
+    <p>I’m currently studying Software Engineering at San José State University and I graduate May 2026. I specialize in process automation with UiPath, Boomi, 
+      Python, and Zapier. My other technical skills include backend development (Java, Spring Boot), database management (SQL Server, MySQL), API integration (REST, GraphQL), 
+      and cloud platforms (AWS). My frontend tech stack includes Webflow, WordPress, React, HTML, and CSS.
+      <br><br>
+      Regarding my work experience, I currently intern at DAAP Finance Partners, an accounting and finance startup based in the SF Bay Area as a Business Systems &
+      Process Analyst Intern, where I also interned during Spring 2025 which I am currently working on automating financial data pipelines, real-time client reporting dashboards,
+      and web development. In Summer 2025, I interned at Nidaan Systems in Milpitas as a Junior Solutions Analyst Intern
+      where I worked with the cloud integration platform Boomi designing software integration workflows, on-prem SQL to cloud migrations, and web development. Before 
+      that, I interned at Voter.vote working under the Match.com founder building in Python/Django a user search algorithm across SQL databases. I was also 
+      an IT intern at Mekong Community Center from August 2023 to August 2024 doing web development. 
 
-  <!-- ===== RESUME SECTION ===== -->
-  <section id="resume" class="section">
-    <h2>Resume</h2>
-    <p>Download my resume <a href="resume.pdf" target="_blank">here</a>.</p>
+      <br><br>
+
+      Time to talk about what I love to do outside of work/school, yay! First and foremost, I love love love fishing. I have been fishing my whole life and I am absolutely
+      infatuated with fish. My favorite spot to fish is saltwater fishing in Santa Cruz. My favorite fish is the lingcod, an absolutely tough fighter as well as a beautiful fish. 
+      I love rockfish, halibut, and surf perch fishing as well. Sometimes I freshwater fish at the local ponds in the South Bay Area when I don't want to drive over the 17, but nothing
+      beats saltwater fishing. Additionally, I love to crab. I crab for dungeness crab in SF during the season, and in the offseason I love love love crabbing for rock crab. I love 
+      coastal foraging as well, I coastal forage along the Half Moon Bay coastline for mussels, seaweed, uni, eels, and other critters that live in the intertidal zone. 
+      I am passionate about sustainable seafood and harvesting your own food from the coast, as it connects you to the food you eat and brings a greater appreciation for the 
+      delicate and beautiful marine ecosystem that the California coast has to offer. I am currently learning how to surf as well, as surfing brings me close to the amazing
+      Santa Cruz coastline and allows me to immerse myself in the great blue Pacific ocean. 
+
+      <br><br>
+      When I am not in the sea doing fishy things, I play tennis as well as pickup soccer occasionally if my ankle isn't bothering me. I lift about 4-5 times a week as well, lifting
+      has always been a passion of mine. I run in my neighborhood sometimes when I feel like it to boost my cardio health and to make myself feel better about all the excess food I love to eat. 
+      I enjoy cooking and my goal is to become a good chef. I enjoy eating organic high quality produce, seafood, and meat, preferably local products that are sustainable, humane, and pasture raised.
+      I play jazz/blues/rock and roll piano, I have been playing since I was 5 years old classically, but stopped playing classical music around the age of 13 to self-teach myself
+      music that I am passionate about. I draw inspiration from the Beatles, Neil Young, Chet Baker, Eagles, The Beach Boys and newer heavier artists in the pop punk/emo genre excite me.
+      <br><br>
+      Above all, I am a people person who enjoys connecting with others! Feel free to contact me at minstonnguyen 
+      at gmail dot com or my 
+      <a href="https://www.linkedin.com/in/minstonnguyen" target="_blank" style="color: blue; text-decoration: underline;">
+        LinkedIn
+      </a> 
+      - I would absolutely love to chat!
+
+    </p>
+    <div class="about-images">
+      <img src="images/about1.jpg" alt="About Image 1">
+      <img src="images/about2.jpg" alt="About Image 2">
+      <img src="images/about3.jpg" alt="About Image 3">
+    </div>
   </section>
 
   <footer>
-    <p>© 2025 Minston</p>
+    <p>© 2025 Minston Nguyen</p>
   </footer>
 </body>
 </html>
