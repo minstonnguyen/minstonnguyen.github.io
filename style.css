@@ -138,3 +138,34 @@ footer {
   color: #777;
   font-size: 0.9rem;
 }
+
+/* ===== MOBILE OPTIMIZATION ===== */
+@media (max-width: 768px) {
+  .home-section h1 {
+    font-size: 6vw; /* bigger on small screens */
+    line-height: 1.2;
+  }
+
+  .about-section h2 {
+    font-size: 5.5vw; /* bigger on small screens */
+    margin-bottom: 2rem;
+  }
+
+  .home-section p,
+  .about-section p {
+    font-size: 4.5vw; /* slightly bigger paragraph text */
+  }
+}
+
+@media (max-width: 768px) {
+  .about-images {
+    flex-direction: column; /* stack vertically */
+    gap: 2rem; /* more space between images */
+    align-items: center;
+  }
+
+  .about-images img {
+    width: 90%; /* almost full width on mobile */
+    height: auto; /* auto height to keep aspect ratio */
+  }
+}
